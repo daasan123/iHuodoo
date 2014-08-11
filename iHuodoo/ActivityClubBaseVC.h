@@ -7,7 +7,19 @@
 //
 
 #import "RootVC.h"
+#import "MenuHrizontal.h"
+#import "WBCycleScrollView.h"
 
-@interface ActivityClubBaseVC : RootVC
+#define MENU_HEIGHT 30
 
+
+@interface ActivityClubBaseVC : RootVC<WBCycleScrollViewDatasource,UITableViewDelegate,UITableViewDataSource,MenuHrizontalDelegate>
+{
+    NSInteger pageCount;
+    
+    IBOutlet WBCycleScrollView* cycleScrollView;
+    IBOutlet MenuHrizontal * menu;
+}
+-(void)setMenuItems:(NSArray*)aArray;
+-(void)setCycleScrollViewPageCount:(NSInteger)aCount;
 @end

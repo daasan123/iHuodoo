@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0C83D2E1998EB8800A92D2E /* MenuHrizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C83D2D1998EB8800A92D2E /* MenuHrizontal.m */; };
+		D0C83D311998EDE000A92D2E /* helight.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C83D2F1998EDE000A92D2E /* helight.png */; };
+		D0C83D321998EDE000A92D2E /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C83D301998EDE000A92D2E /* normal.png */; };
 		D0C8523F19987932005D5959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8523E19987932005D5959 /* Foundation.framework */; };
 		D0C8524119987932005D5959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8524019987932005D5959 /* CoreGraphics.framework */; };
 		D0C8524319987932005D5959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8524219987932005D5959 /* UIKit.framework */; };
@@ -30,6 +33,7 @@
 		D0C8529319989221005D5959 /* MessageMeBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8529219989221005D5959 /* MessageMeBaseVC.m */; };
 		D0C8529619989230005D5959 /* MessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8529519989230005D5959 /* MessageVC.m */; };
 		D0C8529919989243005D5959 /* MeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8529819989243005D5959 /* MeVC.m */; };
+		D0C8529D1998A57A005D5959 /* WBCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8529C1998A57A005D5959 /* WBCycleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0C83D2C1998EB8800A92D2E /* MenuHrizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuHrizontal.h; sourceTree = "<group>"; };
+		D0C83D2D1998EB8800A92D2E /* MenuHrizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuHrizontal.m; sourceTree = "<group>"; };
+		D0C83D2F1998EDE000A92D2E /* helight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helight.png; sourceTree = "<group>"; };
+		D0C83D301998EDE000A92D2E /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
 		D0C8523B19987932005D5959 /* iHuodoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHuodoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C8523E19987932005D5959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0C8524019987932005D5959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +85,8 @@
 		D0C8529519989230005D5959 /* MessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageVC.m; sourceTree = "<group>"; };
 		D0C8529719989243005D5959 /* MeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeVC.h; sourceTree = "<group>"; };
 		D0C8529819989243005D5959 /* MeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeVC.m; sourceTree = "<group>"; };
+		D0C8529B1998A57A005D5959 /* WBCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCycleScrollView.h; sourceTree = "<group>"; };
+		D0C8529C1998A57A005D5959 /* WBCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCycleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0C83D2B1998EB8800A92D2E /* HorizonalMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D0C83D2C1998EB8800A92D2E /* MenuHrizontal.h */,
+				D0C83D2D1998EB8800A92D2E /* MenuHrizontal.m */,
+			);
+			path = HorizonalMenu;
+			sourceTree = "<group>";
+		};
 		D0C8523219987932005D5959 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +221,7 @@
 		D0C8527A199889EC005D5959 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				D0C83D2B1998EB8800A92D2E /* HorizonalMenu */,
 			);
 			path = 3rd;
 			sourceTree = "<group>";
@@ -209,6 +229,7 @@
 		D0C8527B199889EC005D5959 /* My */ = {
 			isa = PBXGroup;
 			children = (
+				D0C8529A1998A57A005D5959 /* WBCycleScrollView */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -232,11 +253,22 @@
 		D0C8527E199889EC005D5959 /* tmp */ = {
 			isa = PBXGroup;
 			children = (
+				D0C83D2F1998EDE000A92D2E /* helight.png */,
+				D0C83D301998EDE000A92D2E /* normal.png */,
 				D0C8528C199890FE005D5959 /* map1.png */,
 				D0C8528A199890C3005D5959 /* map.png */,
 				D0C8527F19988A02005D5959 /* naviBack.png */,
 			);
 			path = tmp;
+			sourceTree = "<group>";
+		};
+		D0C8529A1998A57A005D5959 /* WBCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8529B1998A57A005D5959 /* WBCycleScrollView.h */,
+				D0C8529C1998A57A005D5959 /* WBCycleScrollView.m */,
+			);
+			path = WBCycleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,8 +350,10 @@
 				D0C8525719987932005D5959 /* Images.xcassets in Resources */,
 				D0C8524919987932005D5959 /* InfoPlist.strings in Resources */,
 				D0C8525219987932005D5959 /* Main.storyboard in Resources */,
+				D0C83D311998EDE000A92D2E /* helight.png in Resources */,
 				D0C8528019988A02005D5959 /* naviBack.png in Resources */,
 				D0C8528B199890C3005D5959 /* map.png in Resources */,
+				D0C83D321998EDE000A92D2E /* normal.png in Resources */,
 				D0C8528D199890FE005D5959 /* map1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,11 +373,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C83D2E1998EB8800A92D2E /* MenuHrizontal.m in Sources */,
 				D0C852891998901E005D5959 /* ActivityClubBaseVC.m in Sources */,
 				D0C8529319989221005D5959 /* MessageMeBaseVC.m in Sources */,
 				D0C852751998864B005D5959 /* RootVC.m in Sources */,
 				D0C8527819988692005D5959 /* ActivityVC.m in Sources */,
 				D0C8529919989243005D5959 /* MeVC.m in Sources */,
+				D0C8529D1998A57A005D5959 /* WBCycleScrollView.m in Sources */,
 				D0C8529619989230005D5959 /* MessageVC.m in Sources */,
 				D0C8524F19987932005D5959 /* AppDelegate.m in Sources */,
 				D0C8528319988EE8005D5959 /* ClubVC.m in Sources */,
@@ -554,6 +590,7 @@
 				D0C8526F19987933005D5959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0C8527019987933005D5959 /* Build configuration list for PBXNativeTarget "iHuodooTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +599,7 @@
 				D0C8527219987933005D5959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,8 +9,8 @@
             <objects>
                 <viewController id="Uqs-d5-dya" customClass="ActivityVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="r73-Ki-2H6"/>
-                        <viewControllerLayoutGuide type="bottom" id="EmF-4k-9ws"/>
+                        <viewControllerLayoutGuide type="top" id="wZi-DT-0U9"/>
+                        <viewControllerLayoutGuide type="bottom" id="eer-70-mvR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ujw-SL-3Sn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -26,11 +26,29 @@
             </objects>
             <point key="canvasLocation" x="153" y="-911"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="YN0-2B-PYx">
+            <objects>
+                <viewController id="xfy-Sj-epN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ivF-aT-d5e"/>
+                        <viewControllerLayoutGuide type="bottom" id="zqY-2p-Dtk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qvI-qe-FZ1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cSr-Ou-dan" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="-1642"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wmH-5F-xA4">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="hxi-tW-YUv" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="OBB-vo-aaV">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -52,8 +70,8 @@
             <objects>
                 <viewController id="tAY-Vc-Ee3" customClass="ClubVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ytu-T0-iUb"/>
-                        <viewControllerLayoutGuide type="bottom" id="HvS-A0-pG0"/>
+                        <viewControllerLayoutGuide type="top" id="TID-Ta-ObN"/>
+                        <viewControllerLayoutGuide type="bottom" id="nim-TQ-6Nj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hRT-Yd-40C">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -74,8 +92,8 @@
             <objects>
                 <viewController id="rYP-BR-0cU" customClass="MeVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nHc-OP-j76"/>
-                        <viewControllerLayoutGuide type="bottom" id="eYz-rM-5vi"/>
+                        <viewControllerLayoutGuide type="top" id="nA2-iY-ZAi"/>
+                        <viewControllerLayoutGuide type="bottom" id="78a-eD-oGi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="itx-fU-vCk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -93,8 +111,8 @@
             <objects>
                 <viewController id="NDY-h2-sh6" customClass="MessageVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bC0-MK-U1w"/>
-                        <viewControllerLayoutGuide type="bottom" id="I0S-jq-i0c"/>
+                        <viewControllerLayoutGuide type="top" id="srC-05-ra3"/>
+                        <viewControllerLayoutGuide type="bottom" id="zRQ-Ls-l6V"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ymh-FA-IJu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>

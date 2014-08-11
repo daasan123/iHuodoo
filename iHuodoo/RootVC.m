@@ -19,7 +19,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"naviBack.png"] forBarMetrics:UIBarMetricsDefault];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

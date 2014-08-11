@@ -22,13 +22,48 @@
     }
     return self;
 }
-
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    self=[super initWithCoder:aDecoder];
+    if(self)
+    {
+        pageCount=4;
+    }
+    return self;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray* titles=@[@"全部",@"运动",@"娱乐",@"户外",@"更多"];
+    NSInteger width[]={64,64,64,64,64};
+    NSMutableArray* itemArray=[[NSMutableArray alloc] initWithCapacity:titles.count];
+    for(int i=0;i<titles.count;i++)
+    {
+        NSString* title=titles[i];
+        [itemArray addObject:@{NOMALKEY: @"normal.png",
+                               HEIGHTKEY:@"helight.png",
+                               TITLEKEY:title,
+                               TITLEWIDTH:[NSNumber numberWithFloat:width[i]]}];
+    }
+    [self setMenuItems:itemArray];
+    [menu clickButtonAtIndex:0];
+    
+     [self setCycleScrollViewPageCount:pageCount];
     // Do any additional setup after loading the view.
 }
-
+//cycleScrollView datasource
+-(NSUInteger)numberOfPages
+{
+    return pageCount;
+}
+-(UIView*)viewForCycleScrollViewAtIndex:(NSUInteger)index
+{
+    UITableView* tableView=[[UITableView alloc] initWithFrame:cycleScrollView.bounds style:UITableViewStylePlain];
+    tableView.delegate=self;
+    tableView.dataSource=self;
+    tableView.bounces=NO;
+    return [tableView autorelease];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
