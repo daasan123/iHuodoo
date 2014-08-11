@@ -14,13 +14,22 @@
 		D0C8524B19987932005D5959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8524A19987932005D5959 /* main.m */; };
 		D0C8524F19987932005D5959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8524E19987932005D5959 /* AppDelegate.m */; };
 		D0C8525219987932005D5959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C8525019987932005D5959 /* Main.storyboard */; };
-		D0C8525519987932005D5959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8525419987932005D5959 /* ViewController.m */; };
 		D0C8525719987932005D5959 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C8525619987932005D5959 /* Images.xcassets */; };
 		D0C8525E19987933005D5959 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8525D19987933005D5959 /* XCTest.framework */; };
 		D0C8525F19987933005D5959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8523E19987932005D5959 /* Foundation.framework */; };
 		D0C8526019987933005D5959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8524219987932005D5959 /* UIKit.framework */; };
 		D0C8526819987933005D5959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C8526619987933005D5959 /* InfoPlist.strings */; };
 		D0C8526A19987933005D5959 /* iHuodooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8526919987933005D5959 /* iHuodooTests.m */; };
+		D0C852751998864B005D5959 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C852741998864B005D5959 /* RootVC.m */; };
+		D0C8527819988692005D5959 /* ActivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8527719988692005D5959 /* ActivityVC.m */; };
+		D0C8528019988A02005D5959 /* naviBack.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C8527F19988A02005D5959 /* naviBack.png */; };
+		D0C8528319988EE8005D5959 /* ClubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8528219988EE8005D5959 /* ClubVC.m */; };
+		D0C852891998901E005D5959 /* ActivityClubBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C852881998901E005D5959 /* ActivityClubBaseVC.m */; };
+		D0C8528B199890C3005D5959 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C8528A199890C3005D5959 /* map.png */; };
+		D0C8528D199890FE005D5959 /* map1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C8528C199890FE005D5959 /* map1.png */; };
+		D0C8529319989221005D5959 /* MessageMeBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8529219989221005D5959 /* MessageMeBaseVC.m */; };
+		D0C8529619989230005D5959 /* MessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8529519989230005D5959 /* MessageVC.m */; };
+		D0C8529919989243005D5959 /* MeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8529819989243005D5959 /* MeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +54,29 @@
 		D0C8524D19987932005D5959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0C8524E19987932005D5959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D0C8525119987932005D5959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0C8525319987932005D5959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D0C8525419987932005D5959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D0C8525619987932005D5959 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0C8525C19987933005D5959 /* iHuodooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHuodooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C8525D19987933005D5959 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D0C8526519987933005D5959 /* iHuodooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHuodooTests-Info.plist"; sourceTree = "<group>"; };
 		D0C8526719987933005D5959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0C8526919987933005D5959 /* iHuodooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHuodooTests.m; sourceTree = "<group>"; };
+		D0C852731998864B005D5959 /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		D0C852741998864B005D5959 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		D0C8527619988692005D5959 /* ActivityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityVC.h; sourceTree = "<group>"; };
+		D0C8527719988692005D5959 /* ActivityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityVC.m; sourceTree = "<group>"; };
+		D0C8527F19988A02005D5959 /* naviBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naviBack.png; sourceTree = "<group>"; };
+		D0C8528119988EE7005D5959 /* ClubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubVC.h; sourceTree = "<group>"; };
+		D0C8528219988EE8005D5959 /* ClubVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubVC.m; sourceTree = "<group>"; };
+		D0C852871998901D005D5959 /* ActivityClubBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityClubBaseVC.h; sourceTree = "<group>"; };
+		D0C852881998901E005D5959 /* ActivityClubBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityClubBaseVC.m; sourceTree = "<group>"; };
+		D0C8528A199890C3005D5959 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		D0C8528C199890FE005D5959 /* map1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map1.png; sourceTree = "<group>"; };
+		D0C8529119989221005D5959 /* MessageMeBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageMeBaseVC.h; sourceTree = "<group>"; };
+		D0C8529219989221005D5959 /* MessageMeBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageMeBaseVC.m; sourceTree = "<group>"; };
+		D0C8529419989230005D5959 /* MessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageVC.h; sourceTree = "<group>"; };
+		D0C8529519989230005D5959 /* MessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageVC.m; sourceTree = "<group>"; };
+		D0C8529719989243005D5959 /* MeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeVC.h; sourceTree = "<group>"; };
+		D0C8529819989243005D5959 /* MeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +106,8 @@
 		D0C8523219987932005D5959 = {
 			isa = PBXGroup;
 			children = (
+				D0C85279199889EC005D5959 /* Library */,
+				D0C8527C199889EC005D5959 /* Resource */,
 				D0C8524419987932005D5959 /* iHuodoo */,
 				D0C8526319987933005D5959 /* iHuodooTests */,
 				D0C8523D19987932005D5959 /* Frameworks */,
@@ -115,8 +141,20 @@
 				D0C8524D19987932005D5959 /* AppDelegate.h */,
 				D0C8524E19987932005D5959 /* AppDelegate.m */,
 				D0C8525019987932005D5959 /* Main.storyboard */,
-				D0C8525319987932005D5959 /* ViewController.h */,
-				D0C8525419987932005D5959 /* ViewController.m */,
+				D0C852731998864B005D5959 /* RootVC.h */,
+				D0C852741998864B005D5959 /* RootVC.m */,
+				D0C852871998901D005D5959 /* ActivityClubBaseVC.h */,
+				D0C852881998901E005D5959 /* ActivityClubBaseVC.m */,
+				D0C8529119989221005D5959 /* MessageMeBaseVC.h */,
+				D0C8529219989221005D5959 /* MessageMeBaseVC.m */,
+				D0C8527619988692005D5959 /* ActivityVC.h */,
+				D0C8527719988692005D5959 /* ActivityVC.m */,
+				D0C8528119988EE7005D5959 /* ClubVC.h */,
+				D0C8528219988EE8005D5959 /* ClubVC.m */,
+				D0C8529419989230005D5959 /* MessageVC.h */,
+				D0C8529519989230005D5959 /* MessageVC.m */,
+				D0C8529719989243005D5959 /* MeVC.h */,
+				D0C8529819989243005D5959 /* MeVC.m */,
 				D0C8525619987932005D5959 /* Images.xcassets */,
 				D0C8524519987932005D5959 /* Supporting Files */,
 			);
@@ -150,6 +188,55 @@
 				D0C8526619987933005D5959 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C85279199889EC005D5959 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8527A199889EC005D5959 /* 3rd */,
+				D0C8527B199889EC005D5959 /* My */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D0C8527A199889EC005D5959 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		D0C8527B199889EC005D5959 /* My */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		D0C8527C199889EC005D5959 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8527D199889EC005D5959 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D0C8527D199889EC005D5959 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8527E199889EC005D5959 /* tmp */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D0C8527E199889EC005D5959 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8528C199890FE005D5959 /* map1.png */,
+				D0C8528A199890C3005D5959 /* map.png */,
+				D0C8527F19988A02005D5959 /* naviBack.png */,
+			);
+			path = tmp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +318,9 @@
 				D0C8525719987932005D5959 /* Images.xcassets in Resources */,
 				D0C8524919987932005D5959 /* InfoPlist.strings in Resources */,
 				D0C8525219987932005D5959 /* Main.storyboard in Resources */,
+				D0C8528019988A02005D5959 /* naviBack.png in Resources */,
+				D0C8528B199890C3005D5959 /* map.png in Resources */,
+				D0C8528D199890FE005D5959 /* map1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +339,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C8525519987932005D5959 /* ViewController.m in Sources */,
+				D0C852891998901E005D5959 /* ActivityClubBaseVC.m in Sources */,
+				D0C8529319989221005D5959 /* MessageMeBaseVC.m in Sources */,
+				D0C852751998864B005D5959 /* RootVC.m in Sources */,
+				D0C8527819988692005D5959 /* ActivityVC.m in Sources */,
+				D0C8529919989243005D5959 /* MeVC.m in Sources */,
+				D0C8529619989230005D5959 /* MessageVC.m in Sources */,
 				D0C8524F19987932005D5959 /* AppDelegate.m in Sources */,
+				D0C8528319988EE8005D5959 /* ClubVC.m in Sources */,
 				D0C8524B19987932005D5959 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iHuodoo/iHuodoo-Prefix.pch";
 				INFOPLIST_FILE = "iHuodoo/iHuodoo-Info.plist";
@@ -389,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iHuodoo/iHuodoo-Prefix.pch";
 				INFOPLIST_FILE = "iHuodoo/iHuodoo-Info.plist";
