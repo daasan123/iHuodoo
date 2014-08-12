@@ -24,6 +24,21 @@
     }
     return self;
 }
+-(void)dataInit
+{
+    [super  dataInit];
+    moreItemsArray=[[NSMutableArray alloc] initWithCapacity:10];
+    //data init hear
+}
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    self=[super initWithCoder:aDecoder];
+    if(self)
+    {
+        [self dataInit];
+    }
+    return self;
+}
 -(void)setCycleScrollViewPageCount:(NSInteger)aCount
 {
     if(cycleScrollView)
@@ -51,6 +66,7 @@
 }
 -(void)dealloc
 {
+    [moreItemsArray release];
     [super dealloc];
 }
 #pragma mark - WBCycleScrollView datasource

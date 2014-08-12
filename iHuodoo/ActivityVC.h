@@ -7,7 +7,9 @@
 //
 
 #import "ActivityClubBaseVC.h"
+#import "ContentView.h"
+#import "ActivityMoreCell.h"
 
-@interface ActivityVC : ActivityClubBaseVC
+@interface ActivityVC : ActivityClubBaseVC<ContainerScrollViewDelegate,UITableViewDataSource,UITableViewDelegate,WBCombListDelegate>
 
 @end

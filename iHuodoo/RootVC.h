@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface RootVC : UIViewController
-
+{
+    GlobalDataManager* dataCenter;
+}
+-(void)dataInit;
 @end

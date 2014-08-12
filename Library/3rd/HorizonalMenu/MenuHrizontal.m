@@ -83,7 +83,10 @@
 
 #pragma mark 改变第几个button为选中状态，不发送delegate
 -(void)changeButtonStateAtIndex:(NSInteger)aIndex{
+    
     UIButton *vButton = [mButtonArray objectAtIndex:aIndex];
+    if([[vButton titleForState:UIControlStateNormal] isEqualToString:@"更多"])
+        return;
     [self changeButtonsToNormalState];
     vButton.selected = YES;
     [self moveScrolViewWithIndex:aIndex];

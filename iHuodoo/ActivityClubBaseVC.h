@@ -9,7 +9,8 @@
 #import "RootVC.h"
 #import "MenuHrizontal.h"
 #import "WBCycleScrollView.h"
-
+#import "ContainerScrollView.h"
+#import "WBCombList.h"
 #define MENU_HEIGHT 30
 
 
@@ -19,6 +20,10 @@
     
     IBOutlet WBCycleScrollView* cycleScrollView;
     IBOutlet MenuHrizontal * menu;
+    
+    ContainerScrollView* containerView;
+    
+    NSMutableArray* moreItemsArray;
 }
 -(void)setMenuItems:(NSArray*)aArray;
 -(void)setCycleScrollViewPageCount:(NSInteger)aCount;

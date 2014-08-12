@@ -15,7 +15,19 @@
 @implementation RootVC
 
 
-
+-(void)dataInit
+{
+    dataCenter=[GlobalDataManager sharedDataManager];
+}
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    self=[super initWithCoder:aDecoder];
+    if(self)
+    {
+        [self dataInit];
+    }
+    return self;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
